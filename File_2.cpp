@@ -18,7 +18,7 @@ return x ;
 
 int itc_rev_num (long long number) {
 int a, x ;
-    a = 4536453 ;
+    a = 5043756 ;
     x = 0 ;
 while (number > 0) {
         a = number % 10 ;
@@ -45,7 +45,7 @@ return x ;
 
 bool itc_mirror_num (long long number) {
 int a, x ;
-    a = 4536453 ;
+    a = 5043756 ;
     x = 0 ;
 while (number > 0) {
         a = number % 10 ;
@@ -62,7 +62,7 @@ return false;
 
 int itc_mirror_count (long long number) {
 int a, x, n, num ;
-    a = 4536453 ;
+    a = 5043756 ;
     x = 0 ;
     n = 0 ;
     num = 0 ;
